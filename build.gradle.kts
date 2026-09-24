@@ -16,13 +16,13 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.velocitypowered:velocity-api:3.5.1")
+    compileOnly("com.velocitypowered:velocity-api:4.2.1-SNAPSHOT")
     compileOnly("net.elytrium.limboapi:api:1.1.28-SNAPSHOT")
-    compileOnly("com.github.retrooper:packetevents-velocity:2.13.0")
+    compileOnly("com.github.retrooper:packetevents-velocity:2.14.0")
 }
 
 java {
-    toolchain.languageVersion = JavaLanguageVersion.of(21)
+    toolchain.languageVersion = JavaLanguageVersion.of(25)
 }
 
 tasks {
